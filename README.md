@@ -1,2 +1,2 @@
-# ModpackInstaller
-A tool that installs Minecraft modpacks to a pre-existing instance
+# ModpackExtractor
+Allows you to export all mods out of a Modpack, with ease!
