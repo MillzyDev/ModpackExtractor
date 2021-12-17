@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using ModpackInstaller.ViewModels;
-using ModpackInstaller.Views;
+using ModpackExtractor.ViewModels;
+using ModpackExtractor.Views;
 
-namespace ModpackInstaller
+namespace ModpackExtractor
 {
     public class App : Application
     {
@@ -17,9 +17,11 @@ namespace ModpackInstaller
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainWindow
+                desktop.MainWindow = new MainWindow()
                 {
-                    DataContext = new MainWindowViewModel(),
+                    Width = 800,
+                    Height = 450,
+                    CanResize = false
                 };
             }
 

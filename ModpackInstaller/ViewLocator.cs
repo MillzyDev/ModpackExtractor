@@ -1,9 +1,9 @@
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using ModpackInstaller.ViewModels;
+using ModpackExtractor.ViewModels;
 using System;
 
-namespace ModpackInstaller
+namespace ModpackExtractor
 {
     public class ViewLocator : IDataTemplate
     {
